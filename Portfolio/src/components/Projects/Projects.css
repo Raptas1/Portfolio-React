@@ -1,0 +1,43 @@
+.project-list {
+    margin: 0 5em;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-heading {
+    font-size: 18px;
+    text-align: center;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.project-subheading {
+    font-size: 18px;
+    text-align: center;
+}
+
+.project-tech {
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    color: hsl(0, 0%, 60%);
+}
+
+@media only screen and (max-width: 600px) {
+    .project-list {
+        text-align: center;
+        justify-content: center;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    .project img {
+        width: 100%;
+    }
+}

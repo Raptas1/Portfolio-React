@@ -1,0 +1,27 @@
+.socials {
+    font-size: 1.5em;
+    position: fixed;
+    display: flex;
+    right: 0;
+    gap: 3em;
+    flex-direction: column;
+    top: 50%;
+}
+
+.socials a:hover {
+    color: hsl(211, 81%, 55%);
+}
+
+@media only screen and (max-width: 600px) {
+    .socials {
+        position: absolute;
+        flex-direction: row;
+        top: auto;
+        bottom: 0;
+        gap: 0;
+        right: 50%;
+        transform: translateX(50%);
+
+    }
+
+}
